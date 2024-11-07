@@ -1071,3 +1071,54 @@ footer .sosial i {
         font-size: 0.6rem;
     }
 }
+
+@media (min-width: 767px) and (max-width: 1024px) {
+
+    #business .container .content .bottom .grid {
+        position: relative;
+        top: 20%;
+    }
+
+    #manajement .container .slider,
+    #news .container .slider {
+        position: relative;
+        top: 30%;
+        height: 55vh;
+        width: 110%;
+    }
+
+    header .container .content .left .fa-arrow-down {
+        position: absolute;
+        top: 90%;
+        left: 81.5%;
+        z-index: 5;
+    }
+
+    #aboutUs .container .content .left .fa-arrow-down {
+        position: absolute;
+        top: 500%;
+        left: 176.5%;
+        z-index: 5;
+    }
+
+    #business .container .content .top .fa-arrow-down {
+        position: absolute;
+        top: 1020%;
+        left: 86.5%;
+        z-index: 5;
+    }
+
+    #manajement .container .head .fa-arrow-down {
+        position: absolute;
+        top: 1300%;
+        left: 86.5%;
+        z-index: 5;
+    }
+
+    #news .container .head .fa-angles-up {
+        position: absolute;
+        top: 2000%;
+        left: 86.5%;
+        z-index: 5;
+    }
+}
