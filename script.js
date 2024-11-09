@@ -27,3 +27,19 @@ newsSlide.addEventListener('click', () => {
     const header = document.querySelector('header');
     header.scrollIntoView({ behavior: 'smooth' });
 });
+
+
+// aktifkan fitur contact
+const contactUs = document.querySelector('.navbar .navbar-collapse .btn');
+contactUs.addEventListener('click', () => {
+    const WhatsappPesan = encodeURIComponent(`Halo, saya ingin bertanya tentang perusahaan ini`);
+    const whatsappLink = `https://api.whatsapp.com/send?phone=6282264244554&text=${WhatsappPesan}`;
+    window.open(whatsappLink);
+});
+contactUs.style.boxShadow = '5px 5px 10px #101010';
+contactUs.addEventListener('mouseenter', function () {
+    contactUs.style.boxShadow = 'none';
+});
+contactUs.addEventListener('mouseleave', function () {
+    contactUs.style.boxShadow = '5px 5px 10px #101010';
+});
