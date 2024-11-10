@@ -50,3 +50,8 @@ const colaboration = document.querySelector('header .btn');
 colaboration.addEventListener('click', () => {
     window.location.href = "colab.html";
 });
+
+
+// cursor navbar contact
+const nmrContactUs = document.querySelector('.navbar h5');
+nmrContactUs.style.cursor = 'default';
