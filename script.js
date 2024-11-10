@@ -43,3 +43,10 @@ contactUs.addEventListener('mouseenter', function () {
 contactUs.addEventListener('mouseleave', function () {
     contactUs.style.boxShadow = '5px 5px 10px #101010';
 });
+
+
+// fungsi untuk ke halaman colaborasi
+const colaboration = document.querySelector('header .btn');
+colaboration.addEventListener('click', () => {
+    window.location.href = "colab.html";
+});
