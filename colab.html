@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Colaborating</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="colab.css">
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn" id="back">Back</button>
+        <div class="content">
+            <h2>Start Colaborating</h2>
+            <h3>give us with information about your skills</h3>
+            <form action="" method="">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="your name">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="your email">
+                <label for="project">Provide information about your project</label>
+                <textarea type="text" id="project" placeholder="your project"></textarea>
+                <div class="skill">
+                    <input type="checkbox" name="frontendweb" id="frontendweb">
+                    <label for="frontendweb">Frontend Web</label>
+                    <input type="checkbox" name="backendweb" id="backendweb">
+                    <label for="backendweb">Backend Web</label>
+                    <input type="checkbox" name="fullstackweb" id="fullstackweb">
+                    <label for="fullstackweb">Fullstack Web</label>
+                </div>
+                <button id="send" class="btn">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="colab.js"></script>
+</body>
+
+</html>
