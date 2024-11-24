@@ -12,7 +12,7 @@ send.addEventListener('click', () => {
     // buat link whatsapp untuk mengirimkan pesan
     const whatsappPesan = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nProject: ${project} \nFrontend: ${frontend ? 'Yes' : 'No'}\nBackend: ${backend ? 'Yes' : 'No'}\nFullstack: ${fullstack ? 'Yes' : 'No'}`);
     const nmrWhatsapp = "6282264244554";
-    const url = `https://api.whatsapp.com/send?phone=${nmrWhatsapp}&text=${whatsappPesan}`;
+    const url = `https://wa.me/${nmrWhatsapp}?text=${whatsappPesan}`;
     window.open(url);
 });
 
