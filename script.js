@@ -119,8 +119,6 @@ navItem3.appendChild(a3);
 // tambah class
 a3.setAttribute('class', 'nav-link');
 navItem3.style.cursor = 'pointer';
-navItem3.style.mixBlendMode = 'difference';
-navItem3.style.backgroundBlendMode = 'multiply';
 navItem3.style.transition = '0.3s ease';
 // fungsi untuk scroll ke business
 navItem3.addEventListener('click', () => {
@@ -207,3 +205,16 @@ navItem5.addEventListener('mouseleave', function () {
     navItem5.style.textDecorationColor = '';
     navItem5.style.textDecorationStyle = '';
 });
+
+
+// DOM
+// navbar
+const navbar = document.querySelector('.navbar');
+Object.assign(navbar.style, {
+    backgroundColor: 'blue',
+    mixBlendMode: 'normal',
+});
+
+// logo
+const logoNavbar = document.querySelector('.navbar img');
+logoNavbar.style.borderRadius = '50%';
